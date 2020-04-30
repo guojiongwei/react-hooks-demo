@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import { store } from '@/store/index.js'
 import './index.css';
 import App from './App';
-
+console.log(store.getState())
 ReactDOM.render(
   <BrowserRouter>
     <Provider store={store}>
